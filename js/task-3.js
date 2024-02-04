@@ -8,7 +8,7 @@ function checkForSpam(message) {
 
 // 2 варіант
 // function checkForSpam(message) {
-//     if (message.toLowerCase(message).includes(blackListWords1) || message.toLowerCase(message).includes(blackListWords2)) {
+//     if (message.toLowerCase(message).includes('spam') || message.toLowerCase(message).includes('sale')) {
 //         return true;
 //     } else {
 //         return false;

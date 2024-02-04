@@ -1,12 +1,9 @@
 // Задача 3. Перевірка спаму
 
-const blackListWords1 = 'spam';
-const blackListWords2 = 'sale';
-
 // 1 варіант (На мою думку, кращий ніж 2 варіант)
 function checkForSpam(message) {
-  return message.toLowerCase().includes(blackListWords1) ||
-  message.toLowerCase().includes(blackListWords2)
+  return message.toLowerCase().includes('spam') ||
+  message.toLowerCase().includes('sale')
 }
 
 // 2 варіант
